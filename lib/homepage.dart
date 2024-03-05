@@ -1,6 +1,4 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, dead_code
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nike/secondPage.dart';
 
@@ -97,16 +95,17 @@ class _HomepageState extends State<Homepage> {
                           style: TextStyle(fontSize: 15, color: Colors.grey),
                         ),
                       ),
-                      Spacer(flex: 1,),
+                      Spacer(
+                        flex: 1,
+                      ),
                       Padding(
                         padding: const EdgeInsets.only(right: 5.0),
                         child: Container(
                           height: 48,
                           width: 48,
                           decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(8)
-                          ),
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(8)),
                           child: Icon(Icons.search_sharp),
                         ),
                       )
