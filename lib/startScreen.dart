@@ -24,7 +24,7 @@ class __StartScreenStateState extends State<StartScreenState> {
               height: 390,
             ),
             const SizedBox(
-              height: 90,
+              height: 70,
             ),
             Column(
               children: [
@@ -33,7 +33,7 @@ class __StartScreenStateState extends State<StartScreenState> {
                   child: Text(
                     'Welcome to the online store ',
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-                    textAlign:TextAlign.center,
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 // Spacer(flex: 1,),
